@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px 0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.backBtn {
+    display: block;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    color: #e0e0e0;
+    border: 1px solid transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.backBtn:hover {
+    color: #1e1e1e;
+    background-color: #fda131;
+    border-radius: 10px;
+    border-color: #fda131;
+}
+
+.blokInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 2px solid #ff8c00;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #e0e0e0;
+}
+
+.subList {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+}
+
+.link {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #fda131;
+}
+
+.isActive {
+    color: #fda131;
+    font-weight: 600;
+}
+
+.infoBlock {
+    text-align: center;
+    border-top: 1px solid #ff8c00;
+    border-bottom: 1px solid #ff8c00;
+    padding: 10px 0;
+}
+
+.additionTitle {
+    font-size: 20px;
+    color: #fda131;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.additionList {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,17 @@
+.container {
+    padding: 20px 0;
+}
+
+.input {
+    background-color: #292929;
+    margin-right: 10px;
+    padding: 8px;
+    border: 2px solid #ff8c00;
+    outline: none;
+    border-radius: 15px;
+    color: #e0e0e0;
+}
+
+.input::placeholder {
+    color: #bbb;
+}

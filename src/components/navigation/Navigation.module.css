@@ -1,0 +1,26 @@
+.blokNav {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    border-bottom: 3px solid #ff8c00;
+    padding: 16px 25px;
+    background-color: #1e1e1e;
+}
+
+.link {
+    font-size: 25px;
+    font-weight: 600;
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #fda131;
+}
+
+.isActive {
+    color: #fda131;
+    border-bottom: 2px solid #fda131;
+    padding-bottom: 4px;
+}
